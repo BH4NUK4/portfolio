@@ -4,7 +4,7 @@ import About from "./sections/about.jsx";
 
 function App() {
   return (
-    <div className="relative">
+    <div>
       <NavBar />
       <Hero />
       <About />

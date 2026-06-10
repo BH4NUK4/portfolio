@@ -19,7 +19,10 @@ const skills = [
 ];
 const Hero = () => {
   return (
-    <section className="relative min-h-screen  flex items-center">
+    <section
+      id="move-to-top"
+      className="relative min-h-screen  flex items-center"
+    >
       <div className="absolute inset-0">
         <img
           src="/hero-bg.jpg"
@@ -135,20 +138,20 @@ const Hero = () => {
         </div>
 
         {/**Skils Bar*/}
-        <div className="relative  min-w-auto top-16 tracking-tighter text-muted-foreground/80 font-bold animate-fade-in animation-delay-700">
-          <p className=" text-center ">Technologies Im Familier With :</p>
+        <div className="relative  flex-col items-center min-w-auto top-16 tracking-tighter text-primary/70  font-bold animate-fade-in animation-delay-700">
+          <p className=" text-center mb-4 ">Technologies Im Familier With :</p>
           <div className="relative overflow-hidden">
             <div
-              className="absolute left-0 top-0 bottom-0 w-32
-             bg-linear-to-r from-background to-transparent z-10"
+              className="absolute left-0 top-0 bottom-20 w-40
+             bg-linear-to-r from-background to-transparent z-20"
             />
             <div
-              className="absolute right-0 top-0 bottom-0 w-32
-             bg-linear-to-l from-background to-transparent z-10"
+              className="absolute right-0 top-0 bottom-0 w-40
+             bg-linear-to-l from-background to-transparent z-20"
             />
             <div className="flex animate-marquee">
               {[...skills, ...skills, ...skills].map((skill, index) => (
-                <div className="px-8 shrink-0 py-4" key={index}>
+                <div className="px-8 mb-20 shrink-0 py-4" key={index}>
                   <span className="text-1xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors ">
                     {skill}
                   </span>
@@ -156,19 +159,18 @@ const Hero = () => {
               ))}
             </div>
           </div>
-        </div>
-
-        <div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 
+          <div
+            className=" absolute bottom-48 left-1/2 -translate-x-1/2 
       animate-fade-in animation-delay-1200"
-        >
-          <a
-            href="#about"
-            className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
           >
-            <span className="text-xs uppercase tracking-wider">Scroll</span>
-            <ChevronDown className="w-6 h-6 animate-bounce" />
-          </a>
+            <a
+              href="#about"
+              className="flex flex-col px-2 pt-2 items-center gap-2 text-muted-foreground hover:text-primary/70  transition-colors group"
+            >
+              <span className="text-xs uppercase tracking-wider">Scroll</span>
+              <ChevronDown className="w-6 h-6 animate-bounce" />
+            </a>
+          </div>
         </div>
       </div>
     </section>

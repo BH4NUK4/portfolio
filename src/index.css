@@ -54,9 +54,26 @@
     border: 1px solid color-mix(in srgb, var(--color-border) 60%, transparent);
   }
 
+.glass-header {
+  background: rgba(15, 20, 24, 0.20); 
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba(15, 20, 24, 0.20);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+
   .glow-text {
     text-shadow: 0 0 30px
       color-mix(in srgb, var(--color-primary) 40%, transparent);
+  }
+
+  .glow-border {
+    box-shadow: 0 0 20px
+        color-mix(in srgb, var(--color-primary) 15%, transparent),
+      inset 0 0 20px color-mix(in srgb, var(--color-primary) 15%, transparent);
   }
 }
 

@@ -4,7 +4,6 @@ import { useState } from "react";
 
 const navLink = [
   { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact" },
   { href: "#experiance", label: "Experiance" },
   { href: "#hero", label: "Hero" },
   { href: "#project", label: "Project" },
@@ -13,14 +12,16 @@ const navLink = [
 const NavBar = () => {
   let [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
-    <header className="fixed  top-0 left-1 right-1 bg-transparent py-5 z-50">
-      <nav className="flex container items-center mx-auto my-2 justify-between">
+    <header className="fixed  top-0 left-0 right-0 glass-header py-5 z-50">
+      <nav className="flex container items-center pr-4 mx-auto my-2 justify-between">
         <a
           href="#move-to-top"
           className="text-2xl font-bold pl-5 tracking-normal hover:text-primary"
         >
-          BH4NUK4 <span className="text-primary">.</span>
+          BH4NUK4{" "}
+          <span className="text-primary font-extrabold text-3xl">.</span>
         </a>
+
         {/*deckstop nav*/}
         <div className=" hidden md:flex items-center pr-15  gap-1">
           <div className="space-x-2 text-1xl px-2 py-2 rounded-full glass">
@@ -40,7 +41,7 @@ const NavBar = () => {
 
         {/*Button for deckstops*/}
         <div className="hidden md:block">
-          <Button>Contact Me</Button>
+          <Button id="contact">Contact Me</Button>
         </div>
 
         {/*Mobile menu button*/}
@@ -64,13 +65,14 @@ const NavBar = () => {
                 <a
                   href={link.href}
                   key={index}
+                  onClick={() => setIsMobileMenuOpen(false)}
                   className="pl-5 py-1.5 rounded-full mb-2 text-muted-foreground hover:text-foreground hover:bg-secondary/45"
                 >
                   {link.label}
                 </a>
               );
             })}
-            <Button size="sm" className="">
+            <Button size="sm" onClick={() => setIsMobileMenuOpen(false)}>
               Contact Me
             </Button>
           </div>
