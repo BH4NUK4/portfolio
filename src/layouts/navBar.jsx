@@ -13,7 +13,7 @@ const navLink = [
 const NavBar = () => {
   let [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
-    <header className="absolute fixed top-0 left-1 right-1 bg-transparent py-5 z-50">
+    <header className="fixed  top-0 left-1 right-1 bg-transparent py-5 z-50">
       <nav className="flex container items-center mx-auto my-2 justify-between">
         <a
           href="#move-to-top"
@@ -57,7 +57,7 @@ const NavBar = () => {
 
       {/*Mobile menu*/}
       {isMobileMenuOpen && (
-        <div className="md:hidden mx-1 rounded-2xl glass-strong right-0 ">
+        <div className="md:hidden mx-1 rounded-2xl glass-strong right-0 animate-fade-in">
           <div className="flex flex-col py-2 px-2 my-2">
             {navLink.map((link, index) => {
               return (

@@ -1,6 +1,6 @@
 const Button = ({ className = "", size = "default", children, ...props }) => {
   const baseClasses =
-    "relative  rounded-full font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-primary bg-primary text-primary-foreground hover:bg-primary/85 shadow-lg shadow-primary/16";
+    "relative  rounded-full font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-primary bg-primary text-primary-foreground hover:bg-primary/85 shadow-lg shadow-primary/15";
 
   const sizeClasses = {
     sm: "px-2 py-1.5 text-sm",
