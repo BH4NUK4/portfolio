@@ -41,17 +41,17 @@ const Hero = () => {
             <div className="animate-fade-in animation-delay-200">
               <span className="inline-flex items-center bg-secondary text-sm text-primary glow-text tracking-wider gap-2 px-4 py-2 rounded-full">
                 <span className="w-2 h-2 bg-primary  rounded-full animate-pulse"></span>
-                Software Engineer : Undergraduate
+                Management Information Systems : Undergraduate
               </span>
             </div>
 
             {/**headline */}
             <div className="space-y-4 ">
               <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-300">
-                Someone Who <br />
+                Someone Who Is <br />
                 <span className="text-primary glow-text">
-                  OBSESSED{" "}
-                </span>With <br />
+                  PASSIONATE{" "}
+                </span>about <br />
                 <span className="text-5xl md:text-5xl lg:text-6xl font-normal text-white">
                   CODING
                 </span>
@@ -59,13 +59,11 @@ const Hero = () => {
 
               {/**about me */}
               <p className="tracking-tight animate-fade-in animation-delay-400">
-                Hi, I'm BHANUKA, and Im passionate about coding, problem
-                solving,
-                <br /> and mathematics. And I enjoy turning ideas into practical
-                applications,
-                <br /> learning new technologies, and tackling complex
-                challenges through
-                <br /> logical and creative thinking.
+                Hello there !!&nbsp;&nbsp;&nbsp; I'm Bhanuka Siriwardhana,A
+                Management Information Systems undergraduate passionate about
+                mathematics, coding, and logical problem solving. I enjoy
+                developing software applications and exploring new technologies
+                to improve my skills.
               </p>
             </div>
 

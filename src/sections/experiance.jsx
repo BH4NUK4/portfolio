@@ -1,9 +1,9 @@
-
-
 const Experiance = () => {
   return (
-    <div>Experiance</div>
-  )
-}
+    <section id="experiance">
+      <div className="div"></div>
+    </section>
+  );
+};
 
-export default Experiance
+export default Experiance;

@@ -3,10 +3,10 @@ import Button from "../components/button";
 import { useState } from "react";
 
 const navLink = [
-  { href: "#about", label: "About" },
-  { href: "#experiance", label: "Experiance" },
-  { href: "#hero", label: "Hero" },
-  { href: "#project", label: "Project" },
+  { href: "#move-to-top", label: "HOME" },
+  { href: "#about", label: "ABOUT" },
+  { href: "#project", label: "PROJECTS" },
+  //{ href: "#experiance", label: "Experiance" },
 ];
 
 const NavBar = () => {
@@ -18,8 +18,9 @@ const NavBar = () => {
           href="#move-to-top"
           className="text-2xl font-bold pl-5 tracking-normal hover:text-primary"
         >
-          BH4NUK4{" "}
-          <span className="text-primary font-extrabold text-3xl">.</span>
+          BH<span className="text-primary/70">4</span>NUK
+          <span className="text-primary/70 ">4</span>
+          <span className="text-primary font-extrabold text-3xl"> .</span>
         </a>
 
         {/*deckstop nav*/}
