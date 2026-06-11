@@ -6,6 +6,7 @@ const navLink = [
   { href: "#move-to-top", label: "HOME" },
   { href: "#about", label: "ABOUT" },
   { href: "#project", label: "PROJECTS" },
+  { href: "#contactss", label: "CONTACT" },
   //{ href: "#experiance", label: "Experiance" },
 ];
 
@@ -41,9 +42,11 @@ const NavBar = () => {
         </div>
 
         {/*Button for deckstops*/}
-        <div className="hidden md:block">
-          <Button id="contact">Contact Me</Button>
-        </div>
+        <a href="#contactss">
+          <div className="hidden md:block">
+            <Button id="contact">Contact Me</Button>
+          </div>
+        </a>
 
         {/*Mobile menu button*/}
 

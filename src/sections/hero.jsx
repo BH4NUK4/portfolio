@@ -69,14 +69,18 @@ const Hero = () => {
 
             {/**contact / cv download */}
             <div className="div flex gap-5 items-center animate-fade-in animation-delay-500">
-              <Button size="lg">
-                Contact Me
-                <ArrowRight className="w-5 h-5" />
-              </Button>
-              <button class="relative flex gap-2 focus:outline-none border border-primary px-5 py-2 text-lg rounded-full text-primary-foreground hover:bg-muted bg-muted/75 ">
-                <Download />
-                CV Download
-              </button>
+              <a href="#contactss">
+                <Button size="lg">
+                  Contact Me
+                  <ArrowRight className="w-5 h-5" />
+                </Button>
+              </a>
+              <a href="/public/Bhanuka-03.pdf.pdf" download>
+                <button class="relative flex gap-2 focus:outline-none border border-primary px-5 py-2 text-lg rounded-full text-primary-foreground hover:bg-muted bg-muted/75 ">
+                  <Download />
+                  CV Download
+                </button>
+              </a>
             </div>
 
             {/**social links */}
