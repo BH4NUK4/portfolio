@@ -13,7 +13,7 @@ const navLink = [
 const NavBar = () => {
   let [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
-    <header className="fixed  top-0 left-0 right-0 glass-header py-5 z-50">
+    <header className="fixed  top-0 left-0 right-0 bg-amber-100 py-5 z-50">
       <nav className="flex container items-center pr-4 mx-auto my-2 justify-between">
         <a
           href="#move-to-top"
