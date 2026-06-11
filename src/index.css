@@ -59,8 +59,8 @@
 
 .glass-header {
   background: rgba(15, 20, 24, 0.20); 
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 
   border-bottom: 1px solid rgba(15, 20, 24, 0.20);
 
@@ -68,7 +68,7 @@
 }
 
 
-  .glow-text {
+.glow-text {
     text-shadow: 0 0 30px
       color-mix(in srgb, var(--color-primary) 40%, transparent);
   }
