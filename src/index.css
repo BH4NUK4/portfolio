@@ -59,8 +59,8 @@
 
 .glass-header {
   background: rgba(15, 20, 24, 0.20); 
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
 
   border-bottom: 1px solid rgba(15, 20, 24, 0.20);
 
