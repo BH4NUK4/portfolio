@@ -76,7 +76,7 @@ const Hero = () => {
                 </Button>
               </a>
               <a href="/public/Bhanuka-03.pdf" target="_blank">
-                <button class="relative flex gap-2 focus:outline-none border border-primary px-5 py-2 text-lg rounded-full text-primary-foreground hover:bg-muted bg-muted/75 ">
+                <button className="relative flex gap-2 focus:outline-none border border-primary px-5 py-2 text-lg rounded-full text-primary-foreground hover:bg-muted bg-muted/75 ">
                   <Download />
                   CV Download
                 </button>
