@@ -38,7 +38,7 @@ const Contact = () => {
   return (
     <section id="contactss">
       {/* Contact Info */}
-      <div className="space-y-6 animate-fade-in px-20 md:px-120 mt-50 animation-delay-400">
+      <div className="space-y-6 animate-fade-in px-10 md:px-100 mt-50 animation-delay-400">
         <div className="glass rounded-3xl px-6 py-4">
           <h3 className="text-xl font-semibold tracking-wider mb-6">
             Contact Information :
