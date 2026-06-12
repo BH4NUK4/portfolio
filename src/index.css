@@ -57,7 +57,7 @@
     border: 1px solid color-mix(in srgb, var(--color-border) 60%, transparent);
   }
 
-.glass-header {
+.glassheader {
   background: rgba(15, 20, 24, 0.20); 
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
