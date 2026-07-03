@@ -24,9 +24,27 @@ const projects = [
     description:
       "A university group project designed to assist students with academic tasks using AI powered features. Within this project I contributed by designing and implementing multiple user interface components, focusing on responsive layouts, usability, and maintaining a consistent user experience across the application.",
     image: "/project-ss/ai-assistant.png",
-    tags: ["Flutetr", "Dart", "Python", "FastAPI"],
+    tags: ["Flutter", "Dart", "Python", "FastAPI"],
     link: "#",
     github: "https://github.com/BH4NUK4/Ai-study-assistant",
+  },
+  {
+    title: "ERP Management System",
+    description:
+      "A desktop based ERP solution developed as part of a university group project for the Advanced Database Management Systems course, designed to streamline inventory, customer, supplier, and order management. My contribution focused on building a cross platform desktop application by converting a React web interface using Electron and integrating it with our SQL Server database to showcase the team's implemented database functionalities.",
+    image: "/project-ss/erp.png",
+    tags: ["React", "Node.js", "Electron", "T-SQL"],
+    link: "#",
+    github: "https://github.com/BH4NUK4/frontend-for-ERP",
+  },
+  {
+    title: "AI Story Generator",
+    description:
+      "An interactive storytelling platform where users define a theme to generate unique, branching narratives. By integrating the Gemini API with a FastAPI backend, I created a dynamic gameplay experience featuring multiple choice based endings and a dedicated winning path. This project sharpened my skills in AI integration and full stack deployment.",
+    image: "/project-ss/story-game.png",
+    tags: ["React", "FastAPI", "Python", "Gemini API", "Azure"],
+    link: "#",
+    github: "https://github.com/BH4NUK4/Make-A-Story",
   },
 ];
 
