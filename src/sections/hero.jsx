@@ -1,12 +1,12 @@
 import Button from "../components/button";
-import { ArrowRight, Download, ChevronDown } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const skills = [
   "React",
   "Flutter",
   "TypeScript",
-  "SQL",
+  "Tsql",
   "JavaScript",
   "Tailwind CSS",
   "Figma",
@@ -15,7 +15,13 @@ const skills = [
   "PHP",
   "C",
   "GitHub",
-  "MySQL",
+  "Node.js ",
+  "FastAPI",
+  "Canva",
+  "PostgreSQL",
+  "MongoDB",
+  "Electron",
+  "Azure",
 ];
 const Hero = () => {
   return (
@@ -59,11 +65,11 @@ const Hero = () => {
 
               {/**about me */}
               <p className="tracking-tight animate-fade-in animation-delay-400">
-                Hello there !!&nbsp;&nbsp;&nbsp; I'm Bhanuka Siriwardhana,A
-                Management Information Systems undergraduate passionate about
-                mathematics, coding, and logical problem solving. I enjoy
-                developing software applications and exploring new technologies
-                to improve my skills.
+                Hello there...!! ,I'm Bhanuka Siriwardhana,A Management
+                Information Systems undergraduate passionate about mathematics,
+                coding, and logical problem solving. I enjoy developing software
+                applications and exploring new technologies to improve my
+                skills.
               </p>
             </div>
 
@@ -91,7 +97,7 @@ const Hero = () => {
                 { icon: FaGithub, href: "https://github.com/BH4NUK4" },
                 {
                   icon: FaLinkedin,
-                  href: "https://www.linkedin.com/in/bhanukasiri",
+                  href: "https://www.linkedin.com/in/bhanukasiriwardhana",
                 },
                 {
                   icon: FaInstagram,
@@ -152,26 +158,14 @@ const Hero = () => {
              bg-linear-to-l from-background to-transparent z-20"
             />
             <div className="flex animate-marquee">
-              {[...skills, ...skills, ...skills].map((skill, index) => (
+              {[...skills, ...skills].map((skill, index) => (
                 <div className="px-8 mb-20 shrink-0 py-4" key={index}>
-                  <span className="text-1xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors ">
+                  <span className="text-2xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors ">
                     {skill}
                   </span>
                 </div>
               ))}
             </div>
-          </div>
-          <div
-            className=" absolute bottom-48 left-1/2 -translate-x-1/2 
-      animate-fade-in animation-delay-1200"
-          >
-            <a
-              href="#about"
-              className="flex flex-col px-2 pt-2 items-center gap-2 text-muted-foreground hover:text-primary/70  transition-colors group"
-            >
-              <span className="text-xs uppercase tracking-wider">Scroll</span>
-              <ChevronDown className="w-6 h-6 animate-bounce" />
-            </a>
           </div>
         </div>
       </div>

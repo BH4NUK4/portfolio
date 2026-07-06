@@ -4,7 +4,7 @@ const socialLinks = [
   { icon: FaGithub, href: "https://github.com/BH4NUK4", label: "GitHub" },
   {
     icon: FaLinkedin,
-    href: "https://www.linkedin.com/in/bhanukasiri",
+    href: "https://www.linkedin.com/in/bhanukasiriwardhana",
     label: "LinkedIn",
   },
   {
